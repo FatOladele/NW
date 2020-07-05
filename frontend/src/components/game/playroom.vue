@@ -38,7 +38,7 @@
         </v-row>
         <v-row align = "center" justify = "center" v-else-if="turn == 5">
           <v-col align = "center" >
-            <h3 class = "primary--text">PROBE?</h3>
+            <h3 class = "secondary--text">PROBE?</h3>
           </v-col>
           <v-col>
             <v-btn color="secondary" @click.prevent="probe('yes')" >YES</v-btn>
